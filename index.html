@@ -6,11 +6,16 @@
     <title>index.html</title>
 </head>
 <body>
-    
+<!-- 1. Encabezado -->
     <h1>Joaquín García de la Vega</h1>
+
+<!-- 2. Imágen de perfil -->
     <img height="100px" width="100px" src="/Imagen Perfil.png" alt="Imágen de perfil">
+
+<!-- 3. Sección de información personal -->
     <p>Estudiante de la Tecnicatura Universitaria de Programación de la UTN de Rosario, jugador de rugby m19 en Club Logarítmo Rugby y empleado de RedCober, un broker de seguros especializado en motos y autos.</p>
     
+<!-- 4. Lista de intereses -->
     <h2>Intereses y hobbies</h2>
     <ul>
         <li>Cocinar</li>
@@ -19,6 +24,7 @@
         <li>Escuchar música</li>
     </ul>
 
+<!-- 5. Tabla de información de contacto -->
     <table border="solid 2">
        <th>Correo electrónico</th>
        <th>Teléfono</th>
@@ -26,12 +32,36 @@
             <td>jgarciadelavega05@gmail.com</td>
             <td>3417232602</td>
         </tr>
-        
-
-
-
     </table>
 
+    <br>
+<!-- 6. Enlace a redes sociales -->
+    <a target="_blank" href="https://www.instagram.com/joaco_garciadelavega/?next=%2F">Instagram</a>
+    <a target="_blank" href="www.linkedin.com/in/joaquin-garcia-de-la-vega-b47a4b256">Linkedin</a>
+
+    <br><br>
+
+<!-- 7. Formulario de contacto -->
+
+    <form action="_POST">
+        <h2>Formulario de contacto</h2>
+
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombrre" id="Nombre">
+<br><br>
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="Apellido" id="Apellido">
+<br><br>
+        <label for="Mensaje">Mensaje:</label>
+        <textarea name="Mensaje" id="Mensaje"></textarea>
+<br><br>
+        <input type="submit" name="Enviar" id="Enviar">
+
+
+
+
+
+    </form>
 
 </body>
 </html>
